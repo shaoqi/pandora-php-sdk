@@ -12,6 +12,7 @@
             "homepage": "http://www.qiniu.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php":">=5.5"
     },
