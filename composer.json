@@ -1,0 +1,21 @@
+{
+    "name": "qiniu/pandora-php-sdk",
+    "type": "library",
+    "description": "Qiniu Resource (Cloud) Pandora SDK for PHP",
+    "keywords": ["qiniu", "pandora", "sdk"],
+    "homepage": "https://qiniu.github.io/pandora-docs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qiniu",
+            "email": "sdk@qiniu.com",
+            "homepage": "http://www.qiniu.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5"
+    },
+    "autoload": {
+        "psr-4": {"Pandora\\": "src/Pandora"}
+    }
+}
